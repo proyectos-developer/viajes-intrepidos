@@ -17,16 +17,18 @@ export default function GlobalPanelCell({proporcional}) {
     const navigate = useNavigate()
 
     const [menu_pagina, setMenuPagina] = useState ('inicio')
+    const [pagina, setPagina] = useState('')
 
     const {open_menu_main} = useSelector (({data_actions}) => data_actions)
 
     useEffect(() => {
         setMenuPagina(location.pathname.split ('/')[1] === '' ? 'inicio' : location.pathname.split ('/')[1])
+        setPagina(location.pathname.split ('/')[1])
     }, [location.pathname])
 
     return (
         <div className='position-relative' style={{width: '100%', height: '100%'}}>
-            <div className='position-fixed start-0 top-0' style={{width: '100%', height: 'auto', zIndex: 99999}}>
+            <div className={pagina === '' ? 'position-fixed start-0 top-0' : ''} style={{width: '100%', height: 'auto', zIndex: 9999}}>
                 <MenuSuperiorCell proporcional={proporcional}/>
             </div>
             {
