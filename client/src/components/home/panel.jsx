@@ -7,6 +7,8 @@ import Adrenaline from './adrenaline.jsx'
 import LugaresDescanso from './lugaresdescanso.jsx'
 import ViajaConNostros from './viajaconnosotros.jsx'
 import NuevoBlog from './nuevoblog.jsx'
+import NuestroEquipo from './nuestroequipo.jsx'
+import Suscribirse from './suscribirse.jsx'
 
 export default function HomePanel({proporcional}) {
         
@@ -19,6 +21,8 @@ export default function HomePanel({proporcional}) {
             <LugaresDescanso proporcional={proporcional}/>
             <ViajaConNostros proporcional={proporcional}/>
             <NuevoBlog proporcional={proporcional}/>
+            <NuestroEquipo proporcional={proporcional}/>
+            <Suscribirse proporcional={proporcional}/>
         </div>
     )
 }

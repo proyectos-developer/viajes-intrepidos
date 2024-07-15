@@ -3,7 +3,7 @@ import React from 'react'
 export default function CarouselFrases({proporcional}) {
 
     return (
-        <div style={{width: '100%', height: 500 / proporcional, paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional, background: '#007bff'}}>
+        <div style={{width: '100%', height: 500 / proporcional, paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional, background: 'rgba(0, 123, 251, 0.6)'}}>
             <div className='position-relative' style={{width: '100%', height: 500 / proporcional}}>
                 <div className='position-absolute top-50 start-50 translate-middle' style={{width: '100%', height: 'auto'}}>
                     <div id='carouselhomefrases' className='carousel slide' style={{width: '100%', height: 'auto'}}>

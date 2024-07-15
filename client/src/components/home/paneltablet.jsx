@@ -7,6 +7,8 @@ import AdrenalineTablet from './adrenalinetablet.jsx'
 import LugaresDescansoTablet from './lugaresdescansotablet.jsx'
 import ViajaConNostrosTablet from './viajaconnosotrostablet.jsx'
 import NuevoBlogTablet from './nuevoblogtablet.jsx'
+import NuestroEquipoTablet from './nuestroequipotablet.jsx'
+import SuscribirseTablet from './suscribirsetablet.jsx'
 
 export default function HomePanelTablet({proporcional}) {
         
@@ -19,6 +21,8 @@ export default function HomePanelTablet({proporcional}) {
             <LugaresDescansoTablet proporcional={proporcional}/>
             <ViajaConNostrosTablet proporcional={proporcional}/>
             <NuevoBlogTablet proporcional={proporcional}/>
+            <NuestroEquipoTablet proporcional={proporcional}/>
+            <SuscribirseTablet proporcional={proporcional}/>
         </div>
     )
 }

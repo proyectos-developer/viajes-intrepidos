@@ -31,46 +31,46 @@ export default function MenuSuperior({proporcional}) {
                 </div>
                 <div className='' 
                     style={{width: '50%', height: 120 / proporcional}}>
-                    <ul className='d-flex justify-content-center' style={{width: '100%', height: 40 / proporcional, paddingTop: 40 / proporcional, paddingBottom: 40 / proporcional}}>
-                        <li style={{width: 'auto', height: 120 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
+                    <ul className='d-flex justify-content-center' style={{width: '100%', height: 120 / proporcional, paddingTop: 40 / proporcional, paddingBottom: 40 / proporcional}}>
+                        <li style={{width: 'auto', height: 40 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                 paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
                                 textDecoration: menu_pagina === 'inicio' || mouse_menu === 'inicio' ? 'underline' : 'none'}}
                                 onMouseOver={() => setMouseMenu('inicio')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/')}>
-                            <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins',}}>
+                            <p style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins',}}>
                                 Inicio
-                            </span>
+                            </p>
                         </li>
-                        <li style={{width: 'auto', height: 120 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
+                        <li style={{width: 'auto', height: 40 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                 paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
                                 textDecoration: menu_pagina === 'destinos' || mouse_menu === 'destinos' ? 'underline' : 'none'}}
                                 onMouseOver={() => setMouseMenu('destinos')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/destinos')}>
-                            <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
+                            <p style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
                                 Destinos
-                            </span>
+                            </p>
                         </li>
-                        <li style={{width: 'auto', height: 120 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
+                        <li style={{width: 'auto', height: 40 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                 paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
                                 textDecoration: menu_pagina === 'acerca-de' || mouse_menu === 'acerca-de' ? 'underline' : 'none'}}
                                 onMouseOver={() => setMouseMenu('acerca-de')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/acerca-de')}>
-                            <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
+                            <p style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
                                 Acerca de
-                            </span>
+                            </p>
                         </li>
-                        <li style={{width: 'auto', height: 120 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
+                        <li style={{width: 'auto', height: 40 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                 paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
                                 textDecoration: menu_pagina === 'blog' || mouse_menu === 'blog' ? 'underline' : 'none'}}
                                 onMouseOver={() => setMouseMenu('blog')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/blog')}>
-                            <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
+                            <p style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
                                 Blog
-                            </span>
+                            </p>
                         </li>
-                        <li style={{width: 'auto', height: 120 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
+                        <li style={{width: 'auto', height: 40 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                 paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
                                 textDecoration: menu_pagina === 'contacto' || mouse_menu === 'contacto' ? 'underline' : 'none'}}
                                 onMouseOver={() => setMouseMenu('contacto')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/contacto')}>
-                            <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
+                            <p style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
                                 Contácto
-                            </span>
+                            </p>
                         </li>
                     </ul>
                 </div>

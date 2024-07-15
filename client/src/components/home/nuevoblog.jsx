@@ -6,7 +6,7 @@ import blog_02 from '../../assets/image/home/blog_03.png'
 
 import { useNavigate } from 'react-router-dom'
 
-export default function blogsPopulares({proporcional}) {
+export default function NueoBlog({proporcional}) {
 
     const navigate = useNavigate()
 
