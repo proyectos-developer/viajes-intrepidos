@@ -11,6 +11,10 @@ import HomePanel from './components/home/panel.jsx'
 import HomePanelTablet from './components/home/paneltablet.jsx'
 import HomePanelCell from './components/home/panelcell.jsx'
 
+import DestinosPanel from './components/destinos/panel.jsx'
+import DestinosPanelTablet from './components/destinos/paneltablet.jsx'
+import DestinosPanelCell from './components/destinos/panelcell.jsx'
+
 export default function App() {
 
     const [width, setWidth] = useState(window.outerWidth)
@@ -37,6 +41,10 @@ export default function App() {
                     <Route index element={width < 500 ? <HomePanelCell proporcional={499 / width}/> :
                                           width < 991 ? <HomePanelTablet proporcional={991 / width}/> :
                                                         <HomePanel proporcional={1920 / width}/>}/>
+
+                    <Route path='destinos' element={width < 500 ? <DestinosPanelCell proporcional={499 / width}/> :
+                                                    width < 991 ? <DestinosPanelTablet proporcional={991 / width}/> :
+                                                                  <DestinosPanel proporcional={1920 / width}/>}/>
                                                 
                 </Route>
           </Routes>
