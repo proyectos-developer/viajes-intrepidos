@@ -11,7 +11,7 @@ export default function Suscribirse({proporcional}) {
                     <h3 style={{fontSize: 30 / proporcional, color: 'white', fontWeight: 600, lineHeight: `${72 / proporcional}px`, fontFamily: 'Poppins'}}>
                         Suscríbete ahora y sacia tu pasión por los viajes
                     </h3>
-                    <div className='d-flex justify-content-end' style={{width: '50%', height: 'auto'}}>
+                    <div className='d-flex justify-content-end' style={{width: '40%', height: 'auto'}}>
                         <div className='rounded' 
                             style={{width: 250 / proporcional, height: 72 / proporcional, background: boton_suscribirse ? 'rgba(255, 255, 255, 0.8)' : 'rgb(255, 255, 255)', cursor: 'pointer'}}
                             onMouseOver={() => setBotonSuscribirse(true)} onMouseLeave={() => setBotonSuscribirse(false)}>

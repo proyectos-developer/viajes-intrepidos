@@ -8,7 +8,7 @@ export default function FooterCell({proporcional}) {
     return (
         <div style={{width: '100%', height: 'auto', background: '#007bff', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
             <div className='d-flex justify-conten-center' style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional,
-                paddingBottom: 60 / proporcional, marginTop: 120 / proporcional}}>
+                paddingBottom: 60 / proporcional}}>
                 <div style={{width: '90%', height: 'auto'}}>
                     <h1 style={{fontSize: 40 / proporcional, lineHeight: `${40 / proporcional}px`, fontFamily: 'Bebas Neue, sans-serif', fontWeight: 400, color: 'white',
                                 marginBottom: 0, cursor: 'pointer'}} onClick={() => navigate ('/')}>
