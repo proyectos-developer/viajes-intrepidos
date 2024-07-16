@@ -1,5 +1,10 @@
 import React from 'react'
 
+import facebook from '../../assets/iconos/contacto/facebook_black.png'
+import instagram from '../../assets/iconos/contacto/instagram_black.png'
+import twitter from '../../assets/iconos/contacto/twitter_black.png'
+import tiktok from '../../assets/iconos/contacto/tiktok_black.png'
+
 export default function ContactoTablet({proporcional}) {
 
     return (
@@ -28,13 +33,16 @@ export default function ContactoTablet({proporcional}) {
                             +51 999 - XXXXXX
                         </p>
                     </div>
-                    <div className='d-flex' style={{width: '100%', height: 'auto'}}>
+                    <div className='d-flex justify-content-between' style={{width: '100%', height: 'auto'}}>
                         <h5 style={{fontSize: 14 / proporcional, fontWeight: 600, lineHeight: `${24 / proporcional}px`, color: 'rgb(31, 31, 31)', fontFamily: 'Poppins',
                             textAlign: 'left', marginBottom: 0 / proporcional}}>
                             Síguenos en:
                         </h5>
-                        <div className='d-flex justify-content-between' style={{width: 'auto', height: 24 / proporcional}}>
-
+                        <div className='d-flex justify-content-end' style={{width: 'auto', height: 24 / proporcional}}>
+                            <img src={facebook} style={{width: 24 / proporcional, height: 24 / proporcional, padding: 3 / proporcional}}/>
+                            <img src={instagram} style={{width: 24 / proporcional, height: 24 / proporcional, padding: 3 / proporcional}}/>
+                            <img src={tiktok} style={{width: 24 / proporcional, height: 24 / proporcional, padding: 3 / proporcional}}/>
+                            <img src={twitter} style={{width: 24 / proporcional, height: 24 / proporcional, padding: 3 / proporcional}}/>
                         </div>
                     </div>
                 </div>

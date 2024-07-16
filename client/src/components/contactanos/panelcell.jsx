@@ -9,7 +9,8 @@ export default function ContactanosPanelCell({proporcional}) {
     return (
         <div style={{width: '100%', height: 'aut0'}}>
             <TituloPaginaCell proporcional={proporcional}/>
-            <div style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional, background: 'rgb(249, 249, 249'}}>
+            <div style={{width: '100%', height: 'auto', paddingTop: 50 / proporcional, paddingBottom: 50 / proporcional, background: 'rgb(249, 249, 249',
+                    paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
                 <div style={{width: '100%', height: '100%'}}>
                     <FormularioCell proporcional={proporcional}/>
                 </div>
