@@ -11,7 +11,7 @@ export default function NueoBlog({proporcional}) {
     const navigate = useNavigate()
 
     return (
-        <div style={{width: '100%', height: 'auto', paddingTop: 127 / proporcional, paddingBottom: 123 / proporcional, background: 'rgb(249, 249, 249)'}}>
+        <div style={{width: '100%', height: 'auto', paddingTop: 127 / proporcional, paddingBottom: 123 / proporcional, background: 'white'}}>
             <div style={{width: '100%', height: 'auto', paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional}}>
                 <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>

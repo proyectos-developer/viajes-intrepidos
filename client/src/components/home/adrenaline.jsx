@@ -5,10 +5,12 @@ import adrenalina_01 from '../../assets/image/home/image_adrenalina_01.png'
 import adrenalina_03 from '../../assets/image/home/image_adrenalina_02.png'
 import adrenalina_02 from '../../assets/image/home/image_adrenalina_03.png'
 
-export default function Adrenaline({proporcional}) {
+export default function Adrenaline({proporcional, background}) {
+
+    console.log (background)
 
     return (
-        <div style={{width: '100%', height: 'auto', paddingTop: 127 / proporcional, paddingBottom: 123 / proporcional, background: 'rgb(249, 249, 249)'}}>
+        <div style={{width: '100%', height: 'auto', paddingTop: 127 / proporcional, paddingBottom: 123 / proporcional, background: background === undefined ? 'rgb(249, 249, 249)' : 'white'}}>
             <div style={{width: '100%', height: 'auto', paddingLeft: 250 / proporcional, paddingRight: 250 / proporcional}}>
                 <div className='' style={{width: '100%', height: 'auto'}}>
                     <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 50 / proporcional}}>
