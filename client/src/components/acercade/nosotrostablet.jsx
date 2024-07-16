@@ -2,7 +2,7 @@ import React from 'react'
 
 import image from '../../assets/image/acercade/nosotros.png'
 
-import equipo from '../../assets/image/home/equipo_01.png'
+import ceo from '../../assets/iconos/acercade/ceo.png'
 
 export default function NosotrosTablet({proporcional}) {
 
@@ -33,7 +33,7 @@ export default function NosotrosTablet({proporcional}) {
                         </div>
                         <div className='d-flex' style={{width: '100%', height: 'auto'}}>
                             <div className='rounded-circle' style={{width: 69 / proporcional, height: 69 / proporcional, marginRight: 24 / proporcional}}>
-                                <img className='rounded-circle' src={equipo} style={{width: 69 / proporcional, height: 69 / proporcional}}/>
+                                <img className='rounded-circle' src={ceo} style={{width: 69 / proporcional, height: 69 / proporcional}}/>
                             </div>
                             <div style={{width: 'auto', height: 69 / proporcional}}>
                                 <h5 style={{fontSize: 18 / proporcional, fontWeight: 600, color: 'rgb(31, 31, 31)', lineHeight: `${34.5 / proporcional}px`, marginBottom: 0, 
