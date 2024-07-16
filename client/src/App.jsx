@@ -23,6 +23,10 @@ import NuestroBlogPanel from './components/blog/panel.jsx'
 import NuestroBlogPanelTablet from './components/blog/paneltablet.jsx'
 import NuestroBlogPanelCell from './components/blog/panelcell.jsx'
 
+import ContactanosPanel from './components/contactanos/panel.jsx'
+import ContactanosPanelTablet from './components/contactanos/paneltablet.jsx'
+import ContactanosPanelCell from './components/contactanos/panelcell.jsx'
+
 export default function App() {
 
     const [width, setWidth] = useState(window.outerWidth)
@@ -61,6 +65,10 @@ export default function App() {
                     <Route path='nuestro-blog' element={width < 500 ? <NuestroBlogPanelCell proporcional={499 / width}/> :
                                                         width < 991 ? <NuestroBlogPanelTablet proporcional={991 / width}/> :
                                                                       <NuestroBlogPanel proporcional={1920 / width}/>}/>
+
+                    <Route path='contactanos' element={width < 500 ? <ContactanosPanelCell proporcional={499 / width}/> :
+                                                       width < 991 ? <ContactanosPanelTablet proporcional={991 / width}/> :
+                                                                     <ContactanosPanel proporcional={1920 / width}/>}/>
                                                 
                 </Route>
           </Routes>

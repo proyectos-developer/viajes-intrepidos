@@ -66,8 +66,8 @@ export default function MenuSuperior({proporcional}) {
                         </li>
                         <li style={{width: 'auto', height: 40 / proporcional, marginRight: 21 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                 paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
-                                textDecoration: menu_pagina === 'contacto' || mouse_menu === 'contacto' ? 'underline' : 'none'}}
-                                onMouseOver={() => setMouseMenu('contacto')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/contacto')}>
+                                textDecoration: menu_pagina === 'contactanos' || mouse_menu === 'contacto' ? 'underline' : 'none'}}
+                                onMouseOver={() => setMouseMenu('contacto')} onMouseLeave={() => setMouseMenu()} onClick={() => navigate ('/contactanos')}>
                             <p style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins'}}>
                                 Contácto
                             </p>

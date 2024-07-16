@@ -66,7 +66,7 @@ export default function GlobalPanelCell({proporcional}) {
                                 </li>
                                 <li style={{width: '100%', height: 60 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                         paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
-                                        textDecoration: menu_pagina === 'blog' ? 'underline' : 'none'}}
+                                        textDecoration: menu_pagina === 'nuestro-blog' ? 'underline' : 'none'}}
                                          onClick={() => navigate ('/nuestro-blog')}>
                                     <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins',
                                         textAlign: 'right'}}>
@@ -75,8 +75,8 @@ export default function GlobalPanelCell({proporcional}) {
                                 </li>
                                 <li style={{width: '100%', height: 60 / proporcional, listStyle: 'none', paddingLeft: 10 / proporcional, paddingRight: 10 / proporcional,
                                         paddingTop: 10 / proporcional, paddingBottom: 10 / proporcional, cursor: 'pointer', 
-                                        textDecoration: menu_pagina === 'contacto' ? 'underline' : 'none'}}
-                                         onClick={() => navigate ('/contacto')}>
+                                        textDecoration: menu_pagina === 'contactanos' ? 'underline' : 'none'}}
+                                         onClick={() => navigate ('/contactanos')}>
                                     <span style={{fontSize: 16 / proporcional, lineHeight: `${20 / proporcional}px`, color: 'rgb(31, 31, 31)', fontWeight: 400, fontFamily: 'Poppins',
                                         textAlign: 'right'}}>
                                         Contácto
