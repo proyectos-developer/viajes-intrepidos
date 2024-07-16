@@ -27,7 +27,7 @@ export default function BlogCell({proporcional}) {
     ]
 
     return (
-        <div style={{width: '100%', height: 'auto', paddingLeft: 60 / proporcional, paddingRight: 60 / proporcional}}>
+        <div style={{width: '100%', height: 'auto', paddingLeft: 20 / proporcional, paddingRight: 20 / proporcional}}>
             <div className='d-flex justify-content-center' style={{width: '100%', height: 'auto', marginBottom: 88 / proporcional}}>
                 <div style={{width: '90%', height: 'auto'}}>
                     <CardBlogCell proporcional={proporcional} blog={blogs[0]}/>
