@@ -19,6 +19,10 @@ import AcercaDePanel from './components/acercade/panel.jsx'
 import AcercaDePanelTablet from './components/acercade/paneltablet.jsx'
 import AcercaDePanelCell from './components/acercade/panelcell.jsx'
 
+import NuestroBlogPanel from './components/blog/panel.jsx'
+import NuestroBlogPanelTablet from './components/blog/paneltablet.jsx'
+import NuestroBlogPanelCell from './components/blog/panelcell.jsx'
+
 export default function App() {
 
     const [width, setWidth] = useState(window.outerWidth)
@@ -53,6 +57,10 @@ export default function App() {
                     <Route path='acerca-de' element={width < 500 ? <AcercaDePanelCell proporcional={499 / width}/> :
                                                      width < 991 ? <AcercaDePanelTablet proporcional={991 / width}/> :
                                                                    <AcercaDePanel proporcional={1920 / width}/>}/>
+
+                    <Route path='nuestro-blog' element={width < 500 ? <NuestroBlogPanelCell proporcional={499 / width}/> :
+                                                        width < 991 ? <NuestroBlogPanelTablet proporcional={991 / width}/> :
+                                                                      <NuestroBlogPanel proporcional={1920 / width}/>}/>
                                                 
                 </Route>
           </Routes>
